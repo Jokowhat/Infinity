@@ -1,0 +1,108 @@
+*,
+html{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float:left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+.div-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-pl{
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.spotify{
+    width: 70%
+}
+
+.href-pl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pl-1{
+    margin-top: 30px;
+}
+
+.footer{
+    background-color: #222;
+    height:200px;
+}
+
+.Infinity{
+    color:white;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-m1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-1{
+    width: 100%;
+}
+
+.div-m2{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center; 
+    margin: 5px;
+}
+
+.img2{
+    width:100%;
+}
+
+table{
+    border: 1px solid black;
+    border-spacing: 5px;
+    margin-top: 30px;
+}
+
+th, td{
+    padding: 5px
+}
